@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="-10 -10 120 20"
+   width="120"
+   height="20"
+   version="1.1"
+   id="svg232"
+   sodipodi:docname="map.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata238">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs236" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     id="namedview234"
+     showgrid="false"
+     inkscape:zoom="6.0166667"
+     inkscape:cx="75.141147"
+     inkscape:cy="13.261323"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg232" />
+  <line
+     x1="0"
+     y1="-1"
+     x2="100"
+     y2="-1"
+     stroke="red"
+     stroke-width="1"
+     id="line218" />
+  <line
+     x1="0"
+     y1="1"
+     x2="100"
+     y2="1"
+     stroke="red"
+     stroke-width="1"
+     id="line220" />
+  <circle
+     cx="0"
+     cy="0"
+     r="3"
+     stroke="red"
+     stroke-width="1.5"
+     fill="white"
+     id="circle222" />
+  <circle
+     cx="25"
+     cy="0"
+     r="3"
+     stroke="red"
+     stroke-width="1.5"
+     fill="white"
+     id="circle224" />
+  <circle
+     cx="50"
+     cy="0"
+     r="3"
+     stroke="red"
+     stroke-width="1.5"
+     fill="white"
+     id="circle226" />
+  <circle
+     cx="75"
+     cy="0"
+     r="3"
+     stroke="red"
+     stroke-width="1.5"
+     fill="white"
+     id="circle228" />
+  <circle
+     cx="100"
+     cy="0"
+     r="3"
+     stroke="red"
+     stroke-width="1.5"
+     fill="white"
+     id="circle230" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="1.8762114"
+     y="-3.4646537"
+     id="text3945"
+     transform="rotate(-25)"><tspan
+       sodipodi:role="line"
+       id="tspan3943"
+       x="1.8762114"
+       y="-3.4646537"
+       style="font-size:2px">Stazione1</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="24.522797"
+     y="6.9532733"
+     id="text3945-1"
+     transform="rotate(-25)"><tspan
+       sodipodi:role="line"
+       id="tspan3943-8"
+       x="24.522797"
+       y="6.9532733"
+       style="font-size:2px">Stazione2</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="47.359844"
+     y="17.628317"
+     id="text3945-1-2"
+     transform="rotate(-25)"><tspan
+       sodipodi:role="line"
+       id="tspan3943-8-0"
+       x="47.359844"
+       y="17.628317"
+       style="font-size:2px">Stazione3</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="69.961929"
+     y="27.985769"
+     id="text3945-1-2-5"
+     transform="rotate(-25)"><tspan
+       sodipodi:role="line"
+       id="tspan3943-8-0-4"
+       x="69.961929"
+       y="27.985769"
+       style="font-size:2px">Stazione4</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="93.003525"
+     y="38.727631"
+     id="text3945-1-2-5-2"
+     transform="rotate(-25)"><tspan
+       sodipodi:role="line"
+       id="tspan3943-8-0-4-6"
+       x="93.003525"
+       y="38.727631"
+       style="font-size:2px">Stazione5</tspan></text>
+</svg>

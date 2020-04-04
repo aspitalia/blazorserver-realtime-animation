@@ -1,0 +1,44 @@
+﻿@page "/"
+@inject IMessageNotifier notifier
+@implements IDisposable
+<h1>Train demo</h1>
+<svg width="1200" height="200" viewBox="-5 -5 120 20">
+  <image x="-5" y="-5" width="120" height="20" href="/images/map.svg" />
+  @foreach(var trainPosition in trainPositions.Values)
+  {
+    //Qui rappresentiamo tutti i treni: determiniamo la posizione di ciascuno
+    string x = trainPosition.Position.ToString(CultureInfo.InvariantCulture);
+    //Spostiamolo in alto o in basso a seconda della direzione
+    string y = (trainPosition.Direction == Direction.SouthEast ? -2 : 8).ToString();
+    string title = trainPosition.Name;
+    //E la impostiamo su un elemento image che raffigura l'icona di un treno
+    <image x="@x" y="@y" href="/images/train.svg" width="14">
+      <title>@title</title>
+    </image>
+  }
+</svg>
+@code {
+    Dictionary<string, TrainPosition> trainPositions = new Dictionary<string, TrainPosition>();
+    protected override void OnInitialized()
+    {
+        //Ad inizializzazione avvenuta, sottoscriviamo la ricezione di eventi
+        notifier.TrainMoved += UpdateTrainPosition;
+    }
+    private void UpdateTrainPosition(object sender, TrainPosition position)
+    {
+        //Usiamo InvokeAsync per far eseguire questo codice
+        //al thread del renderer, altrimenti avremmo un'eccezione
+        InvokeAsync(() => 
+        {
+            //Aggiorniamo la posizione del treno
+            trainPositions[position.Name] = position;
+            StateHasChanged();
+        });
+    }
+    public void Dispose()
+    {
+        //Rimuoviamo la sottoscrizione quando
+        //il Razor Component non serve più
+        notifier.TrainMoved -= UpdateTrainPosition;
+    }
+}
